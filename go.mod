@@ -234,6 +234,7 @@ require (
 	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/tools v0.3.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
+	gonum.org/v1/gonum v0.11.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/genproto v0.0.0-20211118181313-81c1377c94b1 // indirect
 	google.golang.org/grpc v1.46.0 // indirect
@@ -246,3 +247,5 @@ require (
 )
 
 go 1.18
+
+replace github.com/libp2p/go-libp2p-kad-dht => ../go-libp2p-kad-dht
